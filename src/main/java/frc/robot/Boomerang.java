@@ -32,6 +32,12 @@ public class Boomerang extends XeroRobot /*extends RobotBase*/ {
   protected void hardwareInit() throws Exception {
   }
 
+  //
+  // BUTCH: Note, all of the methods below here should be removed.  These are implemented
+  //        in our base class XeroRobot so each new robot using our framework should not
+  //        implement them.  As you move forward with this project you will add code to the
+  //        hardware init.
+  //
   //////////////////////////////////
 
   public void robotInit() {}
