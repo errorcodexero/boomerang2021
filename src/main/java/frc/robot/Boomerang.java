@@ -32,5 +32,4 @@ public class Boomerang extends XeroRobot /*extends RobotBase*/ {
   protected void hardwareInit() throws Exception {
   }
 
-
 }
